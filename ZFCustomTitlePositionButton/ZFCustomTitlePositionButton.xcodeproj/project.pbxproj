@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD61D5FB1FC4044600292211 /* ic_fuli@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD61D5FA1FC4044600292211 /* ic_fuli@2x.png */; };
+		FD61D5FC1FC4044600292211 /* ic_fuli@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD61D5FA1FC4044600292211 /* ic_fuli@2x.png */; };
+		FD61D5FD1FC4044600292211 /* ic_fuli@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD61D5FA1FC4044600292211 /* ic_fuli@2x.png */; };
+		FD61D6001FC4082F00292211 /* ZFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD61D5FF1FC4082F00292211 /* ZFViewController.m */; };
+		FD61D6011FC4082F00292211 /* ZFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD61D5FF1FC4082F00292211 /* ZFViewController.m */; };
+		FD61D6021FC4082F00292211 /* ZFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD61D5FF1FC4082F00292211 /* ZFViewController.m */; };
+		FDC09F281FC2E75E00FB196E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC09F271FC2E75E00FB196E /* AppDelegate.m */; };
+		FDC09F2B1FC2E75E00FB196E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC09F2A1FC2E75E00FB196E /* ViewController.m */; };
+		FDC09F2E1FC2E75E00FB196E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC09F2C1FC2E75E00FB196E /* Main.storyboard */; };
+		FDC09F301FC2E75E00FB196E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC09F2F1FC2E75E00FB196E /* Assets.xcassets */; };
+		FDC09F331FC2E75E00FB196E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC09F311FC2E75E00FB196E /* LaunchScreen.storyboard */; };
+		FDC09F361FC2E75E00FB196E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC09F351FC2E75E00FB196E /* main.m */; };
+		FDC09F401FC2E75E00FB196E /* ZFCustomTitlePositionButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC09F3F1FC2E75E00FB196E /* ZFCustomTitlePositionButtonTests.m */; };
+		FDC09F4B1FC2E75E00FB196E /* ZFCustomTitlePositionButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC09F4A1FC2E75E00FB196E /* ZFCustomTitlePositionButtonUITests.m */; };
+		FDC09F5A1FC2E77400FB196E /* ZFCustomTitlePositionBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC09F591FC2E77400FB196E /* ZFCustomTitlePositionBtn.m */; };
+		FDC09F5B1FC2E77400FB196E /* ZFCustomTitlePositionBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC09F591FC2E77400FB196E /* ZFCustomTitlePositionBtn.m */; };
+		FDC09F5C1FC2E77400FB196E /* ZFCustomTitlePositionBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC09F591FC2E77400FB196E /* ZFCustomTitlePositionBtn.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDC09F3C1FC2E75E00FB196E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDC09F1B1FC2E75E00FB196E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDC09F221FC2E75E00FB196E;
+			remoteInfo = ZFCustomTitlePositionButton;
+		};
+		FDC09F471FC2E75E00FB196E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDC09F1B1FC2E75E00FB196E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDC09F221FC2E75E00FB196E;
+			remoteInfo = ZFCustomTitlePositionButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD61D5FA1FC4044600292211 /* ic_fuli@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_fuli@2x.png"; sourceTree = "<group>"; };
+		FD61D5FE1FC4082F00292211 /* ZFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFViewController.h; sourceTree = "<group>"; };
+		FD61D5FF1FC4082F00292211 /* ZFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFViewController.m; sourceTree = "<group>"; };
+		FDC09F231FC2E75E00FB196E /* ZFCustomTitlePositionButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFCustomTitlePositionButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC09F261FC2E75E00FB196E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDC09F271FC2E75E00FB196E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDC09F291FC2E75E00FB196E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDC09F2A1FC2E75E00FB196E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDC09F2D1FC2E75E00FB196E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDC09F2F1FC2E75E00FB196E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDC09F321FC2E75E00FB196E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDC09F341FC2E75E00FB196E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC09F351FC2E75E00FB196E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDC09F3B1FC2E75E00FB196E /* ZFCustomTitlePositionButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFCustomTitlePositionButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC09F3F1FC2E75E00FB196E /* ZFCustomTitlePositionButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFCustomTitlePositionButtonTests.m; sourceTree = "<group>"; };
+		FDC09F411FC2E75E00FB196E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC09F461FC2E75E00FB196E /* ZFCustomTitlePositionButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFCustomTitlePositionButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC09F4A1FC2E75E00FB196E /* ZFCustomTitlePositionButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFCustomTitlePositionButtonUITests.m; sourceTree = "<group>"; };
+		FDC09F4C1FC2E75F00FB196E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC09F581FC2E77400FB196E /* ZFCustomTitlePositionBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZFCustomTitlePositionBtn.h; path = "../../Core Location/Core Location/ZFCustomTitlePositionBtn.h"; sourceTree = "<group>"; };
+		FDC09F591FC2E77400FB196E /* ZFCustomTitlePositionBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZFCustomTitlePositionBtn.m; path = "../../Core Location/Core Location/ZFCustomTitlePositionBtn.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDC09F201FC2E75E00FB196E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC09F381FC2E75E00FB196E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC09F431FC2E75E00FB196E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDC09F1A1FC2E75E00FB196E = {
+			isa = PBXGroup;
+			children = (
+				FDC09F251FC2E75E00FB196E /* ZFCustomTitlePositionButton */,
+				FDC09F3E1FC2E75E00FB196E /* ZFCustomTitlePositionButtonTests */,
+				FDC09F491FC2E75E00FB196E /* ZFCustomTitlePositionButtonUITests */,
+				FDC09F241FC2E75E00FB196E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDC09F241FC2E75E00FB196E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDC09F231FC2E75E00FB196E /* ZFCustomTitlePositionButton.app */,
+				FDC09F3B1FC2E75E00FB196E /* ZFCustomTitlePositionButtonTests.xctest */,
+				FDC09F461FC2E75E00FB196E /* ZFCustomTitlePositionButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDC09F251FC2E75E00FB196E /* ZFCustomTitlePositionButton */ = {
+			isa = PBXGroup;
+			children = (
+				FD61D5FA1FC4044600292211 /* ic_fuli@2x.png */,
+				FD61D5FE1FC4082F00292211 /* ZFViewController.h */,
+				FD61D5FF1FC4082F00292211 /* ZFViewController.m */,
+				FDC09F581FC2E77400FB196E /* ZFCustomTitlePositionBtn.h */,
+				FDC09F591FC2E77400FB196E /* ZFCustomTitlePositionBtn.m */,
+				FDC09F261FC2E75E00FB196E /* AppDelegate.h */,
+				FDC09F271FC2E75E00FB196E /* AppDelegate.m */,
+				FDC09F291FC2E75E00FB196E /* ViewController.h */,
+				FDC09F2A1FC2E75E00FB196E /* ViewController.m */,
+				FDC09F2C1FC2E75E00FB196E /* Main.storyboard */,
+				FDC09F2F1FC2E75E00FB196E /* Assets.xcassets */,
+				FDC09F311FC2E75E00FB196E /* LaunchScreen.storyboard */,
+				FDC09F341FC2E75E00FB196E /* Info.plist */,
+				FDC09F351FC2E75E00FB196E /* main.m */,
+			);
+			path = ZFCustomTitlePositionButton;
+			sourceTree = "<group>";
+		};
+		FDC09F3E1FC2E75E00FB196E /* ZFCustomTitlePositionButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDC09F3F1FC2E75E00FB196E /* ZFCustomTitlePositionButtonTests.m */,
+				FDC09F411FC2E75E00FB196E /* Info.plist */,
+			);
+			path = ZFCustomTitlePositionButtonTests;
+			sourceTree = "<group>";
+		};
+		FDC09F491FC2E75E00FB196E /* ZFCustomTitlePositionButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDC09F4A1FC2E75E00FB196E /* ZFCustomTitlePositionButtonUITests.m */,
+				FDC09F4C1FC2E75F00FB196E /* Info.plist */,
+			);
+			path = ZFCustomTitlePositionButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDC09F221FC2E75E00FB196E /* ZFCustomTitlePositionButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC09F4F1FC2E75F00FB196E /* Build configuration list for PBXNativeTarget "ZFCustomTitlePositionButton" */;
+			buildPhases = (
+				FDC09F1F1FC2E75E00FB196E /* Sources */,
+				FDC09F201FC2E75E00FB196E /* Frameworks */,
+				FDC09F211FC2E75E00FB196E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFCustomTitlePositionButton;
+			productName = ZFCustomTitlePositionButton;
+			productReference = FDC09F231FC2E75E00FB196E /* ZFCustomTitlePositionButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDC09F3A1FC2E75E00FB196E /* ZFCustomTitlePositionButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC09F521FC2E75F00FB196E /* Build configuration list for PBXNativeTarget "ZFCustomTitlePositionButtonTests" */;
+			buildPhases = (
+				FDC09F371FC2E75E00FB196E /* Sources */,
+				FDC09F381FC2E75E00FB196E /* Frameworks */,
+				FDC09F391FC2E75E00FB196E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDC09F3D1FC2E75E00FB196E /* PBXTargetDependency */,
+			);
+			name = ZFCustomTitlePositionButtonTests;
+			productName = ZFCustomTitlePositionButtonTests;
+			productReference = FDC09F3B1FC2E75E00FB196E /* ZFCustomTitlePositionButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDC09F451FC2E75E00FB196E /* ZFCustomTitlePositionButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC09F551FC2E75F00FB196E /* Build configuration list for PBXNativeTarget "ZFCustomTitlePositionButtonUITests" */;
+			buildPhases = (
+				FDC09F421FC2E75E00FB196E /* Sources */,
+				FDC09F431FC2E75E00FB196E /* Frameworks */,
+				FDC09F441FC2E75E00FB196E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDC09F481FC2E75E00FB196E /* PBXTargetDependency */,
+			);
+			name = ZFCustomTitlePositionButtonUITests;
+			productName = ZFCustomTitlePositionButtonUITests;
+			productReference = FDC09F461FC2E75E00FB196E /* ZFCustomTitlePositionButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDC09F1B1FC2E75E00FB196E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				TargetAttributes = {
+					FDC09F221FC2E75E00FB196E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					FDC09F3A1FC2E75E00FB196E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDC09F221FC2E75E00FB196E;
+					};
+					FDC09F451FC2E75E00FB196E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDC09F221FC2E75E00FB196E;
+					};
+				};
+			};
+			buildConfigurationList = FDC09F1E1FC2E75E00FB196E /* Build configuration list for PBXProject "ZFCustomTitlePositionButton" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDC09F1A1FC2E75E00FB196E;
+			productRefGroup = FDC09F241FC2E75E00FB196E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDC09F221FC2E75E00FB196E /* ZFCustomTitlePositionButton */,
+				FDC09F3A1FC2E75E00FB196E /* ZFCustomTitlePositionButtonTests */,
+				FDC09F451FC2E75E00FB196E /* ZFCustomTitlePositionButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDC09F211FC2E75E00FB196E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC09F331FC2E75E00FB196E /* LaunchScreen.storyboard in Resources */,
+				FDC09F301FC2E75E00FB196E /* Assets.xcassets in Resources */,
+				FD61D5FB1FC4044600292211 /* ic_fuli@2x.png in Resources */,
+				FDC09F2E1FC2E75E00FB196E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC09F391FC2E75E00FB196E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD61D5FC1FC4044600292211 /* ic_fuli@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC09F441FC2E75E00FB196E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD61D5FD1FC4044600292211 /* ic_fuli@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDC09F1F1FC2E75E00FB196E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC09F2B1FC2E75E00FB196E /* ViewController.m in Sources */,
+				FDC09F361FC2E75E00FB196E /* main.m in Sources */,
+				FDC09F281FC2E75E00FB196E /* AppDelegate.m in Sources */,
+				FDC09F5A1FC2E77400FB196E /* ZFCustomTitlePositionBtn.m in Sources */,
+				FD61D6001FC4082F00292211 /* ZFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC09F371FC2E75E00FB196E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD61D6011FC4082F00292211 /* ZFViewController.m in Sources */,
+				FDC09F401FC2E75E00FB196E /* ZFCustomTitlePositionButtonTests.m in Sources */,
+				FDC09F5B1FC2E77400FB196E /* ZFCustomTitlePositionBtn.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC09F421FC2E75E00FB196E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD61D6021FC4082F00292211 /* ZFViewController.m in Sources */,
+				FDC09F4B1FC2E75E00FB196E /* ZFCustomTitlePositionButtonUITests.m in Sources */,
+				FDC09F5C1FC2E77400FB196E /* ZFCustomTitlePositionBtn.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDC09F3D1FC2E75E00FB196E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDC09F221FC2E75E00FB196E /* ZFCustomTitlePositionButton */;
+			targetProxy = FDC09F3C1FC2E75E00FB196E /* PBXContainerItemProxy */;
+		};
+		FDC09F481FC2E75E00FB196E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDC09F221FC2E75E00FB196E /* ZFCustomTitlePositionButton */;
+			targetProxy = FDC09F471FC2E75E00FB196E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDC09F2C1FC2E75E00FB196E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC09F2D1FC2E75E00FB196E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDC09F311FC2E75E00FB196E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC09F321FC2E75E00FB196E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDC09F4D1FC2E75F00FB196E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDC09F4E1FC2E75F00FB196E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDC09F501FC2E75F00FB196E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HU8V98H54B;
+				INFOPLIST_FILE = ZFCustomTitlePositionButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.ZFCustomTitlePositionButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDC09F511FC2E75F00FB196E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HU8V98H54B;
+				INFOPLIST_FILE = ZFCustomTitlePositionButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.ZFCustomTitlePositionButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDC09F531FC2E75F00FB196E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HU8V98H54B;
+				INFOPLIST_FILE = ZFCustomTitlePositionButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.ZFCustomTitlePositionButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZFCustomTitlePositionButton.app/ZFCustomTitlePositionButton";
+			};
+			name = Debug;
+		};
+		FDC09F541FC2E75F00FB196E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HU8V98H54B;
+				INFOPLIST_FILE = ZFCustomTitlePositionButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.ZFCustomTitlePositionButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZFCustomTitlePositionButton.app/ZFCustomTitlePositionButton";
+			};
+			name = Release;
+		};
+		FDC09F561FC2E75F00FB196E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HU8V98H54B;
+				INFOPLIST_FILE = ZFCustomTitlePositionButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.ZFCustomTitlePositionButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZFCustomTitlePositionButton;
+			};
+			name = Debug;
+		};
+		FDC09F571FC2E75F00FB196E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HU8V98H54B;
+				INFOPLIST_FILE = ZFCustomTitlePositionButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = demo.ZFCustomTitlePositionButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZFCustomTitlePositionButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDC09F1E1FC2E75E00FB196E /* Build configuration list for PBXProject "ZFCustomTitlePositionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC09F4D1FC2E75F00FB196E /* Debug */,
+				FDC09F4E1FC2E75F00FB196E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC09F4F1FC2E75F00FB196E /* Build configuration list for PBXNativeTarget "ZFCustomTitlePositionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC09F501FC2E75F00FB196E /* Debug */,
+				FDC09F511FC2E75F00FB196E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC09F521FC2E75F00FB196E /* Build configuration list for PBXNativeTarget "ZFCustomTitlePositionButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC09F531FC2E75F00FB196E /* Debug */,
+				FDC09F541FC2E75F00FB196E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC09F551FC2E75F00FB196E /* Build configuration list for PBXNativeTarget "ZFCustomTitlePositionButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC09F561FC2E75F00FB196E /* Debug */,
+				FDC09F571FC2E75F00FB196E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDC09F1B1FC2E75E00FB196E /* Project object */;
+}
